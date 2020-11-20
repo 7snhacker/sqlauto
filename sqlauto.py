@@ -1,5 +1,6 @@
 #insta : 7snhacker
 import os
+os.system('clear') 
 ii = os.system('apt-get install sqlmap -y')
 runn = os.system('sqlmap')
 print("""
