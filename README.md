@@ -1,5 +1,5 @@
 # sqlauto
-git clone https://github.com/7snhacker/sqlauto
+git clone https://github.com/7snhacker/sqlauto.git
 #
 cd sqlauto
 #
