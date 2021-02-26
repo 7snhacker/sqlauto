@@ -1,7 +1,7 @@
 #insta : 7snhacker
 import os
 os.system('clear') 
-os.system('apt-get install sqlmap -y')
+os.system('apt install sqlmap -y')
 os.system("clear")
 print("""
 ███████╗ ██████╗ ██╗      █████╗ ██╗   ██╗████████╗ ██████╗ 
