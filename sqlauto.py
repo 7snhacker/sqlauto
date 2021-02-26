@@ -12,7 +12,8 @@ print("""
 ╚══════╝ ╚══▀▀═╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝    ╚═╝    ╚═════╝ 
                                                             
 """)
-runn = os.system('sqlmap')                                                
+runn = os.system('sqlmap')
+os.system("clear")
 a = input("the link : ")
 sqll = os.system('sqlmap -u '+a+ " --dbs --batch")
 d = input("database name : ")
